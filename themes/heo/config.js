@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '来啦老弟！', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' },
-    { title: '就等你了！', url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ' }
+    { title: '来啦老弟！', url: 'https://www.bilibili.com/video/BV1uT4y1P7CX' },
+    { title: '就等你了！', url: 'https://www.bilibili.com/video/BV1uT4y1P7CX' }
   ],
 
   // 英雄区(首页顶部大卡)
