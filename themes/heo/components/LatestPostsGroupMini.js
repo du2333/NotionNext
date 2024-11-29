@@ -27,6 +27,7 @@ export default function LatestPostsGroupMini({ latestPosts, siteInfo }) {
           <i className='mr-2 fas fas fa-history' />
           {locale.COMMON.LATEST_POSTS}
         </div>
+      </div>
       {latestPosts.map(post => {
         const selected =
           currentPath === `${siteConfig('SUB_PATH', '')}/${post.slug}`
@@ -61,7 +62,6 @@ export default function LatestPostsGroupMini({ latestPosts, siteInfo }) {
           </Link>
         )
       })}
-    </div>
     </>
   )
 }
