@@ -61,6 +61,7 @@ export default function LatestPostsGroupMini({ latestPosts, siteInfo }) {
           </Link>
         )
       })}
+    </div>
     </>
   )
 }
