@@ -1,4 +1,7 @@
 const CONFIG = {
+  HEO_HOME_POST_TWO_COLS: true, // 首页博客两列显示，若为false则只显示一列
+  HEO_LOADING_COVER: true, // 页面加载的遮罩动画
+
   HEO_HOME_BANNER_ENABLE: true,
 
   HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
@@ -42,7 +45,15 @@ const CONFIG = {
     '🤖️ 啥也不是',
     '🧱 啥也不是'
   ],
-  HEO_INFO_CARD_URL: 'https://blog.zephyrrr.win', // 个人资料底部按钮链接
+
+
+  // 个人资料底部按钮
+  HEO_INFO_CARD_URL1: '/about',
+  HEO_INFO_CARD_ICON1: 'fas fa-user',
+  HEO_INFO_CARD_URL2: 'https://github.com/du2333',
+  HEO_INFO_CARD_ICON2: 'fab fa-github',
+  HEO_INFO_CARD_URL3: 'https://blog.dukda.com',
+  HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
